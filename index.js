@@ -106,13 +106,13 @@ function createRock(x) {
               * But if the rock *has* reached the bottom of the GAME,
               * we should remove the rock from the DOM
               */
-                if (top = GAME_HEIGHT) {
+                if (top == GAME_HEIGHT) {
                   ROCKS.shift();
               
                 }
               }
           }
-       
+       }
 
    	
     
